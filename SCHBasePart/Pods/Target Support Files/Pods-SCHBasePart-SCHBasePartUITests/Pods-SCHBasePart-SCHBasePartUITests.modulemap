@@ -1,0 +1,6 @@
+framework module Pods_SCHBasePart_SCHBasePartUITests {
+  umbrella header "Pods-SCHBasePart-SCHBasePartUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
