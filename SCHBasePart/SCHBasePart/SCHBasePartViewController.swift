@@ -7,12 +7,19 @@
 //
 
 import UIKit
-
+public
 class SCHBasePartViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+    public var labelText:String?
+    public override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.red
+        title = "SCHBaseViewControllerTest"
 
+        let lable = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 50))
+        lable.text = labelText
+        lable.sizeToFit()
+        view.addSubview(lable)
         // Do any additional setup after loading the view.
     }
     
